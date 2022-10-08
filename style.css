@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-decoration-line: none;
+
+
+}
+
+
+
+#menu {
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    margin-right: 10px;
+
+}
+
+#menu,
+.p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.m1 {
+    width: 25%;
+    margin: 10px 10px 10px 10px;
+    font-family: 'serif', "Times New Roman";
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.m2 {
+    margin: 12px 10px 10px 10px;
+    font-size: 1rem;
+    text-decoration-line: none;
+
+}
+
+/* 
+.m2:hover {
+    background: blueviolet;
+    border: 2px 2px 2px 2px;
+    border-color: black;
+    border-radius: 4px;
+
+} */
+ 
+input {
+    margin: 10px 9px 10px 10px;
+    font-size: 0.7rem;
+    background-color: brown;
+    color: white;
+    border: 1rem;
+    border-radius: 8px;
+
+} 
+
+.m2 a {
+
+    text-decoration: none;
+}
+
+.m2 a:hover {
+    background: rgb(63, 24, 99);
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+    border-color: black;
+    border-radius: 4px;
+
+}
+
+input:hover {
+    background-color: darkslateblue;
+    transition: .5s;
+    border: 1px solid white;
+}
+
+.home {
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+
+
+    display: grid;
+    place-items: center;
+
+
+
+}
+
+.profile {
+    width: 55%;
+    height: 25vh;
+    background-color: blueviolet;
+
+    display: flex;
+    justify-content: center;
+}
+
+.home div img {
+    width: 15vh;
+    height: 17vh;
+    margin-top: 9px;
+    border-radius: 45px;
+}
+
+.state h1 {
+    text-align: center;
+    font-size: 18px;
+    font-family: system-ui;
+    margin: 1px;
+    text-transform: uppercase;
+
+}
+
+.state h3 {
+    text-align: center;
+    font-size: 15px;
+    font-family: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+
+}
+
+.state h4 {
+    text-align: center;
+    padding: 0px;
+    margin-top: 3px;
+    font-family: system-ui;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.state {
+
+    background-color: blueviolet;
+    width: 55%;
+    margin-top: -252px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+}
+
+.footer a i {
+    font-size: 25px;
+}
+
+.footer a i:hover {
+    transition: 0.5;
+}
